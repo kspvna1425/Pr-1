@@ -1,0 +1,345 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-bar {
+    /* background-color: rgb(37, 80, 80); */
+    color: white;
+    /* padding: 11px 4px; */
+    /* margin: 13px 14px; */
+    font-family: sans-serif;
+}
+
+.nav-bar img {
+    height: 37px;
+    float: left;
+    margin: 14px 18px;
+}
+
+.menu-right {
+    text-align: end;
+    margin-right: 50px;
+
+}
+
+ul li {
+    display: inline-block;
+    margin: 14px 10px;
+    padding: 11px 13px;
+    list-style: none;
+}
+
+span {
+    margin: 0 20px;
+    font-size: 28px;
+    cursor: pointer;
+    display: none;
+    padding: 15px 4px;
+
+}
+
+@media only screen and (max-width: 800px) {
+    span {
+        display: block;
+    }
+
+    ul li {
+        display: block;
+    }
+
+    ul {
+        display: none;
+    }
+}
+
+.container-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 395px;
+}
+
+.list button {
+    padding: 8px 11px;
+    cursor: pointer;
+    background-color: rgb(151, 130, 130);
+    color: #fffdfd;
+    margin: 3px 6px;
+    font-family: sans-serif;
+    font-size: 14px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+}
+
+h1{
+    /* font-size: 19px; */
+    color: white;
+}
+
+p{
+    text-align: center;
+    padding: 0px 33px;
+    color: white;
+    font-family: sans-serif;
+
+}
+
+.btn-home{
+    margin: 12px;
+}
+.btn-home button{
+    padding: 6px 16px;
+    cursor: pointer;
+    background-color: rgb(151, 130, 130);
+    color: #fffdfd;
+    margin: 3px 6px;
+    font-family: sans-serif;
+    font-size: 12px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.list input {
+    padding: 8px 8px;
+    margin-left: 45px;
+    font-size: 14px;
+    font-family: sans-serif;
+    border: none;
+    border: 1px solid #ff2e2e;
+    border-radius: 3px;
+}
+
+header {
+    position: relative;
+}
+
+.container::before {
+    content: " ";
+    background: url('./1.jpg') no-repeat center center/cover;
+    height: 444px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.90;
+    z-index: -1;
+
+}
+
+.nav-bar {
+    position: relative;
+    /* background-color: rgb(57, 92, 81); */
+    font-family: sans-serif;
+    color: white;
+}
+
+.nav-bar::before {
+    content: " ";
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.40;
+}
+
+
+/* box services */
+.container-services {
+    width: 950px;
+    display: block;
+    margin: auto;
+}
+
+.services {
+    display: flex;
+    /* height: 450px; */
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-sr {
+    display: block;
+    width: 110px;
+    margin: 7px auto;
+}
+
+.btn-sr button {
+    /* background-color: #000; */
+    text-decoration: underline;
+    padding: 11px 10px;
+    cursor: pointer;
+    margin: 3px 2px;
+    background-color: white;
+    border: 1px solid #841919;
+    color: #ec0b0b;
+    border-radius: 11px;
+    font-family: sans-serif;
+    /* font-size: 1px; */
+}
+
+.box {
+
+    border-radius: 12px;
+    background-color: #000;
+    border: 1px solid black;
+    padding: 23px 23px;
+    margin: 12px 8px;
+}
+
+.pramery {
+    text-align: center;
+    color: white;
+    padding: 12px 3px;
+    font-size: 19px;
+    font-family: sans-serif;
+}
+
+.logo-services img {
+    display: block;
+    margin: auto;
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+}
+
+/* other-services  container  design in css */
+
+.other {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+
+}
+
+.h-secondery {
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    padding: 10px 9px;
+    margin: 9px 2px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.deve {
+    text-align: center;
+    font-size: 2.8rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 12px 9px;
+    margin: 14px 2px;
+}
+
+.other-logo img {
+    width: 430px;
+    margin-top: 13px;
+}
+
+.other-paragraph .text {
+    width: 361px;
+    padding: 2px 35px;
+    text-align: center;
+    font-size: 17px;
+}
+
+/* contact in design  */
+
+.Contact-Page {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+
+}
+
+h2 {
+    text-align: center;
+    padding: 12px 4px;
+    font-size: 2.3rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin: 9px 3px;
+}
+
+.contact-email input {
+    padding: 6px 320px;
+    font-size: 18px;
+    margin: 4px 8px;
+
+}
+
+.contact-email {
+    font-size: 19px;
+}
+
+.contact-gender {
+    font-size: 19px;
+
+}
+
+.contact-Address {
+    font-size: 18px;
+}
+
+.contact-Address textarea {
+    margin: 12px 9px;
+    padding: 4px 260px;
+}
+
+.contact-gender input {
+    font-size: 18px;
+    margin: 12px 9px;
+}
+
+.contact-nationality {
+    font-size: 19px;
+    margin: 12px 9px;
+}
+
+.contact-btn input {
+    font-size: 11px;
+    margin: 3px 3px;
+    padding: 5px 4px;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 6px;
+    color: red;
+}
+
+/* footer in desgin */
+
+footer{
+    padding: 17px;
+    /* background-color: #000; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right{
+    display: flex;
+    margin-right: 13px;
+
+}
+
+.instra{
+    margin: 5px 8px;
+}
+
+.face{
+    margin: 5px 8px;
+}
+
+.instra img{
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.face img{
+    border-radius: 20px;
+    cursor: pointer;
+}
